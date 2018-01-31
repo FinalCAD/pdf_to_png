@@ -1,0 +1,59 @@
+PATH
+  remote: ../file_model
+  specs:
+    file_model (0.1.0)
+      activemodel (~> 4.2)
+      activesupport (~> 4.2)
+
+PATH
+  remote: .
+  specs:
+    pdf_to_png (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activemodel (4.2.10)
+      activesupport (= 4.2.10)
+      builder (~> 3.1)
+    activesupport (4.2.10)
+      i18n (~> 0.7)
+      minitest (~> 5.1)
+      thread_safe (~> 0.3, >= 0.3.4)
+      tzinfo (~> 1.1)
+    builder (3.2.3)
+    concurrent-ruby (1.0.5)
+    diff-lcs (1.3)
+    i18n (0.9.3)
+      concurrent-ruby (~> 1.0)
+    minitest (5.11.1)
+    rake (10.5.0)
+    rspec (3.7.0)
+      rspec-core (~> 3.7.0)
+      rspec-expectations (~> 3.7.0)
+      rspec-mocks (~> 3.7.0)
+    rspec-core (3.7.1)
+      rspec-support (~> 3.7.0)
+    rspec-expectations (3.7.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.7.0)
+    rspec-mocks (3.7.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.7.0)
+    rspec-support (3.7.0)
+    thread_safe (0.3.6)
+    tzinfo (1.2.4)
+      thread_safe (~> 0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.16)
+  file_model!
+  pdf_to_png!
+  rake (~> 10.0)
+  rspec (~> 3.0)
+
+BUNDLED WITH
+   1.16.1
