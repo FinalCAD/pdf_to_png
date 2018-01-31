@@ -4,8 +4,6 @@ module PdfToPng
       include FileModel::Processor::Base
 
       def process(model:, context: {})
-        context = context.merge(options)
-
         file = Tempfile.new(%W[output .png])
 
         cmd = [
@@ -23,15 +21,15 @@ module PdfToPng
 
         copy(
           file,
-          compose_path(model: model, context: context)
+          compose_path(model)
         )
       end
 
       private
 
       # Returns an Pathname
-      def compose_path(model:, context:)
-        context[:export_path] + model.dir_path + Pathname(model.name.to_s + '.png')
+      def compose_path(model)
+        export_path + model.dir_path + Pathname(model.name.to_s + '.png')
       end
 
     end

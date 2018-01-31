@@ -1,5 +1,15 @@
 # PdfToPng
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/b555e20a16d6c8776959/maintainability)](https://codeclimate.com/github/FinalCAD/pdf_to_png/maintainability)
+
+[![Dependency Status](https://gemnasium.com/FinalCAD/pdf_to_png.svg)](https://gemnasium.com/FinalCAD/pdf_to_png)
+
+[![Build Status](https://travis-ci.org/FinalCAD/pdf_to_png.svg?branch=master)](https://travis-ci.org/FinalCAD/pdf_to_png) (Travis CI)
+
+[![Coverage Status](https://coveralls.io/repos/FinalCAD/pdf_to_png/badge.svg?branch=master&service=github)](https://coveralls.io/github/FinalCAD/pdf_to_png?branch=master)
+
+[![Inline docs](http://inch-ci.org/github/FinalCAD/pdf_to_png.svg?branch=master)](http://inch-ci.org/github/FinalCAD/pdf_to_png)
+
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/pdf_to_png`. To experiment with that code, run `bin/console` for an interactive prompt.
 
 A processor based on https://github.com/FinalCAD/file_model `FileModel::Processor::Base`

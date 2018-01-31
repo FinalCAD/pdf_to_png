@@ -1,5 +1,18 @@
 require "bundler/setup"
+require "file_model"
 require "pdf_to_png"
+
+begin
+  require 'pry'
+rescue LoadError
+end
+
+begin
+  require 'coveralls'
+  Coveralls.wear!
+rescue LoadError
+end
+
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
